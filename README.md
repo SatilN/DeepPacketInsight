@@ -22,6 +22,6 @@ DeepPacket Insight is an advanced PCAP analysis tool designed for cybersecurity 
 
 ### Installation
 ```bash
-git clone https://github.com/yourusername/DeepPacketInsight.git
+git clone https://github.com/SatilN/DeepPacketInsight.git
 cd DeepPacketInsight
 pip install -r requirements.txt
