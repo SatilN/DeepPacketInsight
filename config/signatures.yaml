@@ -1,0 +1,8 @@
+beaconing:
+  description: "Regular callbacks to C2 server"
+  threshold: 0.25
+  metrics: [packet_interval_stddev]
+
+dns_tunneling:
+  description: "Data leakage via DNS"
+  condition: "dns_query_length > 50 || entropy > 0.85"

@@ -1,0 +1,11 @@
+feeds:
+  alienvault_otx:
+    enabled: true
+    url: "https://otx.alienvault.com/api/v1/indicators/{type}/{indicator}/"
+    parser: otx
+    api_key: ""  # Add your key if you have one
+
+  abusech_urlhaus:
+    enabled: true
+    url: "https://urlhaus-api.abuse.ch/v1/url/{indicator}/"
+    parser: abusech
